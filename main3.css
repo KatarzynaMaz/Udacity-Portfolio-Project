@@ -1,0 +1,90 @@
+*,
+*:before
+*:after {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.responsive-img {
+	height: auto;
+	max-width: 100%
+}
+.text-header{
+	font-size: 7vw;
+}
+.text-item { 
+	font-size: 5vw;
+}
+.header {
+	text-align: center;
+	margin-bottom: 25px;
+}
+ 
+ .featured-work {
+	 margin: 30px 0;
+}
+.featured-work-header,
+.featured-item{
+	text-align: center;
+}
+.featured-item {
+	margin: 20px 0;
+}
+	
+@media screen and (min-width:480px){
+	.text-header{
+	   font-size: 6vw;
+}
+    .text-item { 
+	   font-size: 4vw;
+}
+.portfolio-img{
+	width:100%
+}
+@media screen and (min-width:720px){
+	.header{
+		justify-content: space-between;
+		margin: 0 auto 30px;
+		text-align: left;
+	}
+	.logo{
+		text-align: left;
+	}
+	.identity{
+		text-align: right;
+	}
+    .header,.featured-projects{
+		display: flex;
+		margin: 0px auto;
+		max-width: 1440px;
+	}
+	.featured-projects{
+		margin: 0 auto 30px;
+	}
+    .featured-item{
+    margin: 20px 20px 20px 0px;
+}
+    .featured-item: last-child {
+	 margin-right: 0px;
+}
+}
+@media screen and (min-width: 830px){
+	.text-header{
+	font-size: 4vw;
+}
+    .text-item { 
+	font-size: 2vw;
+}
+}
+@media screen and (min-width: 830px){
+	.text-header{
+	font-size: 3vw;
+}
+     .text-item { 
+	font-size: 1vw;
+}
+}
+	
+
+		 
+ 
